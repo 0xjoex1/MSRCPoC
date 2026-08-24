@@ -4,16 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "MSRCPoC"
-version = "99.0.0"
-description = "My awesome Python package for testing"
-readme = "README.md"
-requires-python = ">=3.8"
-license = {text = "MIT"}
-authors = [
-    {name = "Joex", email = "testing@joex.com"}
-]
-
-dependencies = []
+version = "99.1.9"
 
 [tool.hatch.build.targets.wheel]
-packages = ["code/src"]
+packages = ["MSRCPoC"]
